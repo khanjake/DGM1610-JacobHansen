@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewerClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewerClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +79,7 @@
       <workItem from="1578937821016" duration="1351000" />
       <workItem from="1579108093866" duration="2625000" />
       <workItem from="1579714882214" duration="2424000" />
+      <workItem from="1579843307953" duration="644000" />
     </task>
     <servers />
   </component>
