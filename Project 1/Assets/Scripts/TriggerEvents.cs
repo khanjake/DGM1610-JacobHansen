@@ -2,9 +2,12 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+
 public class TriggerEvents : MonoBehaviour
 {
     public UnityEvent triggerEnterEvent;
+    public UnityEvent triggerStayEvent;
+    public UnityEvent triggerExitEvent;
     private void OnTriggerEnter(Collider other)
     {
         print(other.name);
@@ -13,6 +16,11 @@ public class TriggerEvents : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        triggerEnterEvent.Invoke();
+        triggerStayEvent.Invoke();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        triggerStayEvent.Invoke();
     }
 }
