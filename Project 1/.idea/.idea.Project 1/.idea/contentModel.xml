@@ -11,10 +11,13 @@
           <e p="CharacterMovement.cs" t="Include" />
           <e p="FPSCounter.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="IfStatements.cs" t="Include" />
+          <e p="JetPack.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NewBehaviourScript1.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="NewerClass.cs" t="Include" />
+          <e p="RigidBodyForces.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
         </e>
