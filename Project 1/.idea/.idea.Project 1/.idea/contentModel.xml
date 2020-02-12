@@ -8,16 +8,19 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AnythingYouWant.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="FPSCounter.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="JetPack.cs" t="Include" />
+          <e p="LightController.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NewBehaviourScript1.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="NewerClass.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
+          <e p="SpriteController.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
         </e>

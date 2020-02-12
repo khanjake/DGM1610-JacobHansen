@@ -12,7 +12,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
