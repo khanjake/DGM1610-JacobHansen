@@ -14,15 +14,18 @@
     <setting file="file://$PROJECT_DIR$/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/FloatData.cs" />
         <option value="$PROJECT_DIR$/ImageController.cs" />
         <option value="$PROJECT_DIR$/IntData.cs" />
-        <option value="$PROJECT_DIR$/FloatData.cs" />
+        <option value="$PROJECT_DIR$/TextBehavior.cs" />
       </list>
     </option>
   </component>
@@ -55,6 +58,8 @@
       <updated>1582132668820</updated>
       <workItem from="1582132683029" duration="2086000" />
       <workItem from="1582135705449" duration="415000" />
+      <workItem from="1582564144097" duration="3096000" />
+      <workItem from="1582568021881" duration="22000" />
     </task>
     <servers />
   </component>

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ImageController : MonoBehaviour
 {
     private Image imageObj;
+    public FloatData dataObj;
     
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,6 @@ public class ImageController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        imageObj.fillAmount = dataObj.value;
     }
 }
