@@ -9,7 +9,7 @@ public class TextBehavior : MonoBehaviour
     public IntData dataObj;
     void Start()
     {
-        textObj = getComponent<text>();
+        textObj = GetComponent<UnityEngine.UI.Text>();
     }
 
     // Update is called once per frame

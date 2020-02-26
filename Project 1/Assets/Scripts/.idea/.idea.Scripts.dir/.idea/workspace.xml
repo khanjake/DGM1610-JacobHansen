@@ -23,9 +23,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FloatData.cs" />
-        <option value="$PROJECT_DIR$/ImageController.cs" />
         <option value="$PROJECT_DIR$/IntData.cs" />
         <option value="$PROJECT_DIR$/TextBehavior.cs" />
+        <option value="$PROJECT_DIR$/ImageController.cs" />
       </list>
     </option>
   </component>
@@ -60,6 +60,7 @@
       <workItem from="1582135705449" duration="415000" />
       <workItem from="1582564144097" duration="3096000" />
       <workItem from="1582568021881" duration="22000" />
+      <workItem from="1582736550561" duration="2393000" />
     </task>
     <servers />
   </component>
