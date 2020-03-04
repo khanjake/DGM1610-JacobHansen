@@ -8,4 +8,14 @@ public class Vector3Data : ScriptableObject
 	{
 		transformObj.position = value;
 	}
+
+	public void ChangeValueFromTransform(Transform transformObj)
+	{
+
+	}
+
+	public void ChangeVector3Data(Vector3Data vector3DataObj)
+	{
+		Vector3Data
+	}
 }
