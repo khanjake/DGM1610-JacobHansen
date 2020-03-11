@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[CreateAssetMenu]
 public class Vector3Data : ScriptableObject
 {
     public Vector3 value;
@@ -11,11 +12,11 @@ public class Vector3Data : ScriptableObject
 
 	public void ChangeValueFromTransform(Transform transformObj)
 	{
-
+		value = transformObj.position;
 	}
 
 	public void ChangeVector3Data(Vector3Data vector3DataObj)
 	{
-		Vector3Data
+		vector3DataObj.value = value;
 	}
 }
