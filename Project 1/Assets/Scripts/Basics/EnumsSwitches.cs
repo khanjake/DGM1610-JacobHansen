@@ -8,6 +8,7 @@ public class EnumsSwitches : MonoBehaviour
 {
     public UnityEvent idleEvent, walkEvent, runEvent, jumpEvent;
     public UnityEvent startingEvent, playingEvent, inStoreEvent, pausingEvent, endingEvent;
+    public UnityEvent primaryEvent, SecondaryEvent, MeleeEvent;
 
     public enum GameStates
     {
@@ -17,6 +18,14 @@ public class EnumsSwitches : MonoBehaviour
         Pausing,
         Ending,
     }
+
+    public enum WeaponStates
+    {
+        Primary,
+        Secondary,
+        Melee,
+    }
+    public WeaponStates currentWeaponState;
     
     public GameStates currentGameState;
 
@@ -82,6 +91,20 @@ public class EnumsSwitches : MonoBehaviour
                 break;
             case GameStates.Ending:
                 endingEvent.Invoke();
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+        switch (currentWeaponState)
+        {
+            case WeaponStates.Primary:
+                primaryEvent.Invoke();
+                break;
+            case WeaponStates.Secondary:
+                SecondaryEvent.Invoke();
+                break;
+            case WeaponStates.Melee:
+                MeleeEvent.Invoke();
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
